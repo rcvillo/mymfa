@@ -59,9 +59,111 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 		.container1 {
 			padding-top: 100px;
+			width: 85%;
+			margin: auto;
+			z-index: 2;
+			padding-bottom: 100px;
+		}
+
+		.container1 img{
+			width: 48%;
+			margin-right: .2%;
+			margin-bottom: .5%;
+		}
+
+		.body1 {
+			background-color: rgb(239,239,239);
+		}
+
+		.images {
+			width: 100%;
+			position: relative;
+			margin: auto;
+		}
+
+		.images img {
+			width: 100%;
+		}
+
+		.info {
+			padding-top: 35px;
+			width: 90%;
+			position: relative;
+			padding-bottom: 20px;
+			margin: auto;
+		}
+
+		.info p{
+			font-family: 'Open Sans';
+		}
+
+/* computer size */
+@media (min-width: 780px) {
+html, body, h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 0;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			font-size: 15px;			
+		}
+/* nav bar */
+
+		a {
+			text-decoration: none;
+			color: black;
+			font-size: 20px;
+			letter-spacing: 6px;
+		}
+
+		a:hover {
+			color: #d22027;
+		}
+
+		.nav {
+			padding: 1%;
+			line-height: 35px;
+			float: left;
+			position: fixed;
+			text-indent: 0px;
+			text-align: center;
+			margin-top: 0px;
+			background-color: white;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.nav ul {
+			text-indent: 0px;
+			padding: 40px;
+			display: inline;
+			text-align: center;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+/* body */
+
+		body {
+			background-color: rgb(216,216,216);
+		}
+
+		.container {
+			padding-top: 35px;
+			background-color: rgb(216,216,216);
+		}
+
+		.container img {
+			position: fixed;
+			display: block;
+			margin: 0 auto;
+		}
+
+		.container1 {
+			padding-top: 100px;
 			width: 80%;
 			margin: auto;
 			z-index: 2;
+			padding-bottom: 100px;
 		}
 
 		.container1 img{
@@ -94,4 +196,5 @@ html, body, h1, h2, h3, h4, h5, h6 {
 		.info p{
 			font-family: 'Open Sans';
 		}
+}
 
